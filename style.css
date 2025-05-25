@@ -1,0 +1,244 @@
+body{
+  font-family:'Montserrat', sans-serif; 
+  
+ 
+}
+
+/**************************TITLE SECTION**************************/
+
+#title{
+background: linear-gradient(to right,#FF9400, #FFB800);
+ color: white;
+
+}
+
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  size: 3rem;
+ line-height: 1.5;
+}
+.sph1{
+  color: #1E700A;
+  font-weight: bold;
+}
+
+ .c1{
+  padding-top: 0%;
+  margin: 0px 113.508px 0px 113.494px;
+} 
+
+.Dbutton{
+  margin: 5% 3% 5% 0;
+}
+.btn-outline-light:hover{
+  color: #1E700A !important;
+}
+
+
+/********************************NAVBAR NAV******************************/
+
+.milogo{
+  width: 90px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+.navtog{
+  padding-left: 350px;
+}
+.nav-item{
+  padding: 0 20px;
+  font-weight: bold;
+  
+ } 
+
+ .nav-link:hover{
+  color: #FF6347 !important;
+  
+ }
+ .linkhov:hover{
+  color: #1E700A !important;
+ 
+ }
+  
+ 
+
+
+
+ /************************* image carousel section *********************/
+ 
+ .plateimage{
+  width: 98%;
+ }
+
+ #carousel-platepic{
+  position: absolute;
+  z-index: 0;
+ 
+}
+
+
+ /************************FEATURES SECTION**********************/
+ #features{
+  padding: 7% 15%;
+  text-align: center;
+  background-image: url(images2/dave.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+ }
+
+ 
+ .futeh3{
+  font-family: 'Montserrat-bold', sans-serif; 
+  color:white;
+  padding-top: 12px;
+  padding-bottom: 20px;
+ }
+ .btn-outline-warning:hover{
+  box-shadow: 0px 0px 20px rgb(209, 137, 4); 
+  color: #1E700A !important;
+  
+ }
+ 
+ 
+ /***********************TESTIMONIAL & PRESS*************************/
+ #testimonials{
+  text-align: center;
+  color: #FFB800;
+ }
+ /* the <em> next to he profile images in the carousel reveiws */
+ .h2em{
+  color: black;
+ }
+
+ .caroh2{
+padding-top: 28px;
+color: #1E700A;
+ }
+
+ .carousel-item{
+  padding: 4% 14%;
+
+ }
+
+ .test-image{
+ width: 10%;
+ border-radius: 100px;
+ margin: 20px;
+ }
+
+ .test-h2{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.5;
+ }
+
+
+ /*************************PRICING********************************/
+ #pricing{
+   background-color:#FFB800;
+  text-align: center;
+  padding: 3% 7%;
+  
+  }
+  .card-group-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card{ 
+    margin: 20px;
+  }
+  .card:hover{
+    box-shadow: 1px 10px 20px rgb(209, 137, 4);
+  }
+
+ .card img {
+  width: 180px;
+  padding-top: 20px;  
+  text-align: center;
+  padding-left:15px;
+  
+ }
+ .card-subtitle{
+  font-weight: bolder;
+ }
+
+
+
+ /******************************* MEDIA QUERY ***********************/
+ @media (max-width:1028px){
+  #title{
+    /* text-align: center; */
+  }
+  .plateimage{
+    position: static;
+    transform: rotate(0);
+  }
+ }
+ 
+
+
+
+ /******************************* FOOTER ***************************/
+ #footer{
+  text-align: center;
+  background-color:#f7eed8;
+  width: 1187px;
+  height: 400px;
+   
+ }
+
+ .fa-brands{
+  padding: 20px;
+ }
+ .p-footer{
+  padding-top: 25px;
+  color: #8f8f8f;
+  font-style: italic;
+ }
+ .footyellow{
+  color: #FFB800;
+ }
+ .mail{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f5d78b;
+  height: 120px;
+ }
+ .email-box{
+  position: relative;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 25px;
+ }
+ .email-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 28px;
+  margin-bottom: 10px;
+}
+
+
+.send-button {
+  position: absolute;
+  top: 20px;
+  right: 1px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  
+}
+
+ 
+ 
+
+                                

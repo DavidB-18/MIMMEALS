@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="favicon.ico" type="favicon.ico">
+  <title>Mimeals</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!----bootstrap & js cdn code line---->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+  <!---fonts.goole cdn for montserrat and unbuntu-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800;900&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+ 
+  <!-- font awsome code snippte -->
+  <script src="https://kit.fontawesome.com/6d6375cf6b.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+  <section id="title">
+    <div class="flex-container">
+      <!-- navbar & navbar brand -->
+       
+    
+    <nav class="navbar navbar-expand-lg  navbar-dark">
+    <span class="navbar-brand mb-0 h1"><img class="milogo" src="images2/web-2-mimeals-logo.png" alt="mimealslogo">MIMEALS</span>
+    
+    
+   <div class="navtog">
+   <!-- navbar toggler button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- navbar nav item -->
+    <div>
+   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+     <li class="nav-item ">
+     <a class="nav-link active" aria-current="page" href="#">Home</a>
+     </li>
+     <li class="nav-item">
+     <a class="nav-link linkhov" aria-current="page" href="#">Meals</a>
+     </li>
+     <li class="nav-item">
+     <a class="nav-link" aria-current="page" href="#">About</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link linkhov" aria-current="page" href="#footer">Contacts</a>
+       </li>
+      </div> 
+  </div>
+   </div>
+</nav>
+ </div>   
+
+    <div class="container c1">
+      
+         <div class="row">
+        <div class="col-lg-6">
+          <h1><span class="sph1">Get the Best</span> Meals <span  class="sph1"> Everyday</span></h1>
+        
+         <button type="button" class="btn btn-outline-light btn-lg Dbutton"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M19.24 5.58H18.84L15.46 2.2C15.19 1.93 14.75 1.93 14.47 2.2C14.2 2.47 14.2 2.91 14.47 3.19L16.86 5.58H7.14L9.53 3.19C9.8 2.92 9.8 2.48 9.53 2.2C9.26 1.93 8.82 1.93 8.54 2.2L5.17 5.58H4.77C3.87 5.58 2 5.58 2 8.14C2 9.11 2.2 9.75 2.62 10.17C2.86 10.42 3.15 10.55 3.46 10.62C3.75 10.69 4.06 10.7 4.36 10.7H19.64C19.95 10.7 20.24 10.68 20.52 10.62C21.36 10.42 22 9.82 22 8.14C22 5.58 20.13 5.58 19.24 5.58Z" fill="green"/>
+          <path d="M19.05 12H4.87C4.25 12 3.78 12.55 3.88 13.16L4.72 18.3C5 20.02 5.75 22 9.08 22H14.69C18.06 22 18.66 20.31 19.02 18.42L20.03 13.19C20.15 12.57 19.68 12 19.05 12ZM10.61 18.45C10.61 18.84 10.3 19.15 9.92 19.15C9.53 19.15 9.22 18.84 9.22 18.45V15.15C9.22 14.77 9.53 14.45 9.92 14.45C10.3 14.45 10.61 14.77 10.61 15.15V18.45ZM14.89 18.45C14.89 18.84 14.58 19.15 14.19 19.15C13.81 19.15 13.49 18.84 13.49 18.45V15.15C13.49 14.77 13.81 14.45 14.19 14.45C14.58 14.45 14.89 14.77 14.89 15.15V18.45Z" fill="green"/>
+        </svg></i> Buy Now</button>
+       </div>
+      
+        <div class="col-lg-6">
+           <!-- i added an auto playing carousel to the second column. -->
+          <div id="carousel-platepic" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img class="plateimage" src="food-images/Food-image-1.png" alt="plate-image">
+              </div>
+              <div class="carousel-item">
+                <img class="plateimage" src="food-images/Food-image-2.png" alt="plate-image">
+              </div>
+              <div class="carousel-item">
+                <img class="plateimage" src="food-images/Food-image-3.png" 
+             alt="plate-image">
+              </div>
+              <div class="carousel-item">
+                <img class="plateimage" src="food-images/Food-image-4.png" 
+             alt="plate-image">
+              </div>
+              <div class="carousel-item"> 
+                <img class="plateimage" src="food-images/Food-image-5.png" alt="plate-image">
+              </div>
+            </div>
+          </div>
+            <!-- this is whrere the auto playing carousel area ends. -->
+
+        </div>
+      </div>
+    </div>
+
+   
+
+    
+  </section>
+
+
+  <!---------------------------------- Features ------------------------------------------>
+
+  <section id="features">
+
+    <!-- this is the svg-image code  -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="71" height="70" viewBox="0 0 71 70" fill="none">
+      <path d="M64.6667 14.1458V48.825C64.6667 51.6542 62.3625 54.25 59.5333 54.6L58.6292 54.7167C53.8458 55.3583 47.1083 57.3417 41.6833 59.6167C39.7875 60.4042 37.6875 58.975 37.6875 56.9042V16.3333C37.6875 15.2542 38.3 14.2625 39.2625 13.7375C44.6 10.85 52.6792 8.28333 58.1625 7.81667H58.3375C61.8375 7.81667 64.6667 10.6458 64.6667 14.1458Z" fill="white"/>
+      <path d="M31.7375 13.7375C26.4 10.85 18.3209 8.28333 12.8375 7.81667H12.6334C9.13337 7.81667 6.3042 10.6458 6.3042 14.1458V48.825C6.3042 51.6542 8.60837 54.25 11.4375 54.6L12.3417 54.7167C17.125 55.3583 23.8625 57.3417 29.2875 59.6167C31.1834 60.4042 33.2834 58.975 33.2834 56.9042V16.3333C33.2834 15.225 32.7 14.2625 31.7375 13.7375ZM15.0834 22.575H21.6459C22.8417 22.575 23.8334 23.5667 23.8334 24.7625C23.8334 25.9875 22.8417 26.95 21.6459 26.95H15.0834C13.8875 26.95 12.8959 25.9875 12.8959 24.7625C12.8959 23.5667 13.8875 22.575 15.0834 22.575ZM23.8334 35.7H15.0834C13.8875 35.7 12.8959 34.7375 12.8959 33.5125C12.8959 32.3167 13.8875 31.325 15.0834 31.325H23.8334C25.0292 31.325 26.0209 32.3167 26.0209 33.5125C26.0209 34.7375 25.0292 35.7 23.8334 35.7Z" fill="white"/>
+    </svg>
+         <!-- End of SVG code -->
+
+    <h2 class="futeh3">Select from our wide range of Meals</h2>
+    <button type="button" class="btn btn-outline-warning btn-lg" style="--bs-btn-padding-y: 5px; --bs-btn-padding-x: 30px; --bs-btn-font-size: 20px;">View Now</button>
+
+    
+  </section>
+
+
+  <!--------------------------------- Testimonials---------------------------------------->
+
+
+
+  <section id="testimonials">
+   <h2 class="caroh2">What Our Clients Say</h2>
+    <div id="testcar" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <!---- turns out i only needed to add a dark class. ---->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="4000">
+          <h2 class="test-h2">"Delicious dishes, excellent service a culinary <br> delight for all taste buds!"</h2>
+          <img class="test-image" src="images2/dave.png" alt="dave's-profile">
+          <em class="h2em">David, (ibadan)</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="test-h2">"Outstanding flavors, prompt delivery  my go-to <br> place for a satisfying meal!"</h2>
+          <img class="test-image" src="images2/jace.png" alt="jace-profile">
+          <em class="h2em">Jace, (lagos)</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="test-h2">"Fresh ingredients, generous portions  a food <br> haven worth revisiting!"</h2>
+          <img class="test-image" src="images2/precious.png" alt="precious-profile">
+          <em class="h2em">precious, (Uyo)</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="test-h2">"Unforgettable experience, five-star quality  the best <br> spot for food enthusiasts!"</h2>
+          <img class="test-image" src="images2/Dan.png" alt="dan's-profile">
+          <em class="h2em">Daniel, (lagos)</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="test-h2">"Mouthwatering menu, friendly staff  a true <br> foodie's paradise!"</h2>
+          <img class="test-image" src="images2/beryl.png" alt="beryl's-profile">
+          <em class="h2em">Beryl, (ibadan)</em>
+        </div>
+                        
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testcar" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#testcar" data-bs-slide="next"> 
+        <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <!----------------------------------- PRICING------------------------------------------->
+
+
+  <section id="pricing">
+   <div class="flex-container card-group-1">
+    
+      <!-- Card 1 -->
+        
+          <div class="card" style="border-radius: 20px; width: 200px;">
+            <img src="food-images/Food-image-1.png" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #FF6347;">Stew Bowl-1 Ltr</h5>
+              <p class="card-subtitle" style="color:#1E700A;">#25,000</p>
+            </div>
+          </div>
+        
+
+        <!-- Card 2 -->
+        
+          <div class="card" style="border-radius: 20px; width: 200px;">
+            <img src="food-images/Food-image-2.png" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #FF6347;">Pasteries-1 Pack</h5>
+              <p class="card-subtitle" style="color: #1E700A;">#20,000</p>
+            </div>
+          </div>
+        
+
+        <!-- Card 3 -->
+        
+          <div class="card" style="border-radius: 20px; width: 200px;">
+            <img src="food-images/Food-image-3.png" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #FF6347;">Jollof Bowl-1 Ltr</h5>
+              <p class="card-subtitle" style="color: #1E700A;">#28,000</p>
+            </div>
+          </div>
+        
+
+        <!-- Card 4 -->
+        
+          <div class="card" style="border-radius: 20px; width: 200px;">
+            <img src="food-images/Food-image-4.png" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #FF6347;">Cake Slices-1 Box</h5>
+              <p class="card-subtitle" style="color: #1E700A;">#15,000</p>
+            </div>
+          </div>
+
+
+          <!-- Card 5 -->
+  
+    <div class="card" style="border-radius: 20px; width: 200px;">
+      <img src="food-images/Food-image-5.png" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title" style="color: #FF6347;">Rice-1 Ltr</h5>
+        <p class="card-subtitle" style="color: #1E700A;">#25,000</p>
+      </div>
+    </div>
+  
+  <!-- Card 6 -->
+  
+    <div class="card" style="border-radius: 20px; width: 200px;">
+      <img src="food-images/Food-image-4.png" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title" style="color: #FF6347;">Cake Slices-2 Boxs</h5>
+        <p class="card-subtitle" style="color: #1E700A;">#30,000</p>
+      </div>
+    </div>
+  
+  <!-- Card 7 -->
+  
+    <div class="card" style="border-radius: 20px; width: 200px;">
+      <img src="food-images/Food-image-1.png" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title" style="color: #FF6347;">Chicken Stew-1 Ltr</h5>
+        <p class="card-subtitle" style="color: #1E700A;">#35,000</p>
+      </div>
+    </div>
+  
+  <!-- Card 8 -->
+  
+    <div class="card" style="border-radius: 20px; width: 200px;">
+      <img src="food-images/Food-image-3.png" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title" style="color: #FF6347;">Rice</h5>
+        <p class="card-subtitle" style="color: #1E700A;">#20,000</p>
+      </div>
+    </div>
+        
+   
+  </div>
+
+      
+  </section>
+
+
+
+
+
+
+  <!--------------------------------- Footer---------------------------------------------->
+
+
+
+  <!-- icons are gotten from font awsome websites, code snippet are the head. -->
+  <footer id="footer">
+
+<div class="mail flex-container">
+  <div class="email-box">
+     <input type="email" class="email-input" placeholder="Enter your email">
+                    <!-- Send button icon svg -->
+     <button class="btn send-button"><span class="send-icon"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+      <circle cx="24" cy="24" r="24" fill="#FFB800"/>
+      <path d="M14.5404 24.327C13.794 24.7186 13.8249 25.2922 14.6075 25.6018L16.9262 26.5192C17.7095 26.8302 18.8946 26.6605 19.5585 26.1425L29.6275 18.2018C30.2895 17.6812 30.3604 17.758 29.7856 18.3734L21.8256 26.8934C21.2488 27.507 21.4191 28.2605 22.2049 28.5644L22.4766 28.6702C23.2624 28.9741 24.543 29.4844 25.3237 29.8018L27.8953 30.8489C28.6766 31.1663 29.5114 30.7922 29.7333 29.9792L33.6527 15.5728C33.874 14.7599 33.4443 14.4147 32.6978 14.8057L14.5404 24.327Z" fill="white"/>
+      <path d="M20.9036 33.7586C20.8578 33.8961 22.4894 31.3961 22.4894 31.3961C22.9507 30.6915 22.6888 29.8509 21.9094 29.5322L20.1301 28.8038C19.3507 28.4851 18.9771 28.8593 19.2997 29.638C19.2997 29.638 20.9507 33.6173 20.9036 33.7586Z" fill="white"/>
+    </svg></span></button>
+   </div>
+</div>
+
+
+ 
+
+
+
+
+
+
+    <i class="fa-brands fa-square-x-twitter fa-2xl" style="color: #030303;"></i>
+    <i class="fa-brands fa-facebook fa-2xl" style="color: #5794ff;"></i>
+    <i class="fa-brands fa-square-instagram fa-2xl" style="color: #833ab4;"></i>
+    <i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #27d51a;"></i>
+
+    <p class="p-footer">© Copyright <span class="footyellow">Mimeals</span> 2023</p>
+ 
+  </footer>
+
+
+</body>
+
+</html>
